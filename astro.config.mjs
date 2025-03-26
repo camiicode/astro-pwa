@@ -2,6 +2,8 @@ import { defineConfig } from 'astro/config';
 import VitePWA from "@vite-pwa/astro";
 
 export default defineConfig({
+  site: 'https://camiicode.github.io',
+  base: 'astro-pwa',
   integrations: [
     VitePWA({
       registerType: 'autoUpdate', // Se actualiza automáticamente cuando hay cambios
