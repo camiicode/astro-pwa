@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import VitePWA from "@vite-pwa/astro";
 
 export default defineConfig({
-  site: 'https://tuusuario.github.io/astro-pwa/',
+  site: 'https://camiicode.github.io/astro-pwa/',
   base: '/astro-pwa/',
   integrations: [
     VitePWA({
