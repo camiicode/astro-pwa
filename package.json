@@ -10,7 +10,7 @@
     "deploy":"gh-pages -d dist"
   },
   "dependencies": {
-    "astro": "^5.16.1"
+    "astro": "^5.16.10"
   },
   "devDependencies": {
     "@vite-pwa/astro": "^0.5.0",
